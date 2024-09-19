@@ -6,8 +6,8 @@
   <Project Name="Ejemplo_05" Path="Ejemplo_5/Ejemplo_5.project" Active="No"/>
   <Project Name="Ejemplo_03" Path="Ejemplo_03/Ejemplo_03.project" Active="No"/>
   <Project Name="Ejemplo_06" Path="Ejemplo_06/Ejemplo_06.project" Active="No"/>
-  <Project Name="Ejemplo_07" Path="Ejemplo_07/Ejemplo_07.project" Active="No"/>
-  <Project Name="Ejemplo_08" Path="Ejemplo_08/Ejemplo_08.project" Active="Yes"/>
+  <Project Name="Ejemplo_07" Path="Ejemplo_07/Ejemplo_07.project" Active="Yes"/>
+  <Project Name="Ejemplo_08" Path="Ejemplo_08/Ejemplo_08.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
