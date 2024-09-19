@@ -1,6 +1,6 @@
 #include <iostream> 
 using namespace std;
-const int minimo - 0, maximo - 10;
+const int minimo = 0, maximo = 10;
 int main(int argc, char** argv) 
 {
 	int n;
