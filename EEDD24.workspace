@@ -6,8 +6,14 @@
   <Project Name="Ejemplo_05" Path="Ejemplo_5/Ejemplo_5.project" Active="No"/>
   <Project Name="Ejemplo_03" Path="Ejemplo_03/Ejemplo_03.project" Active="No"/>
   <Project Name="Ejemplo_06" Path="Ejemplo_06/Ejemplo_06.project" Active="No"/>
-  <Project Name="Ejemplo_07" Path="Ejemplo_07/Ejemplo_07.project" Active="Yes"/>
+  <Project Name="Ejemplo_07" Path="Ejemplo_07/Ejemplo_07.project" Active="No"/>
   <Project Name="Ejemplo_08" Path="Ejemplo_08/Ejemplo_08.project" Active="No"/>
+  <Project Name="Ejemplo_paso_por_ref" Path="EEDD24/EEDD24.project" Active="No"/>
+  <Project Name="Ejemplo_paso_de_argumentos" Path="Ejemplo_paso_de_argumentos/Ejemplo_paso_de_argumentos.project" Active="No"/>
+  <Project Name="Ejemplo_09" Path="Ejemplo_09/Ejemplo_09.project" Active="No"/>
+  <Project Name="Ejemplo_10" Path="Ejemplo_10/Ejemplo_10.project" Active="No"/>
+  <Project Name="Ejemplo_11" Path="EAjemplo_11/EAjemplo_11.project" Active="No"/>
+  <Project Name="Ejemplo_12" Path="Ejemplo_12/Ejemplo_12.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -19,6 +25,12 @@
       <Project Name="Ejemplo_06" ConfigName="Debug"/>
       <Project Name="Ejemplo_07" ConfigName="Debug"/>
       <Project Name="Ejemplo_08" ConfigName="Debug"/>
+      <Project Name="Ejemplo_paso_por_ref" ConfigName="Debug"/>
+      <Project Name="Ejemplo_paso_de_argumentos" ConfigName="Debug"/>
+      <Project Name="Ejemplo_09" ConfigName="Debug"/>
+      <Project Name="Ejemplo_10" ConfigName="Debug"/>
+      <Project Name="Ejemplo_11" ConfigName="Debug"/>
+      <Project Name="Ejemplo_12" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -30,6 +42,12 @@
       <Project Name="Ejemplo_06" ConfigName="Release"/>
       <Project Name="Ejemplo_07" ConfigName="Release"/>
       <Project Name="Ejemplo_08" ConfigName="Release"/>
+      <Project Name="Ejemplo_paso_por_ref" ConfigName="Release"/>
+      <Project Name="Ejemplo_paso_de_argumentos" ConfigName="Release"/>
+      <Project Name="Ejemplo_09" ConfigName="Release"/>
+      <Project Name="Ejemplo_10" ConfigName="Release"/>
+      <Project Name="Ejemplo_11" ConfigName="Release"/>
+      <Project Name="Ejemplo_12" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

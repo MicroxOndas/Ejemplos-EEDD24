@@ -1,5 +1,6 @@
-#include <iostream> using namespace std;
-int menor (int x, int y) // declaración y definición juntas
+#include <iostream> 
+using namespace std;
+int menor(int x, int y) // declaración y definición juntas
 {
 return x < y ? x : y;
 }
@@ -15,7 +16,7 @@ int main(int argc, char** argv)
 	return 0;
 }
 
-int menorde3 (int X, int y, int z) //...y aquí la definición
+int menorde3 (int x, int y, int z) //...y aquí la definición
 {
-	return menor (menor(x, y), z);
+	return menor(menor(x, y), z);
 }

@@ -1,23 +1,19 @@
 #include <iostream>
 using namespace std;
+
+void ejemplo(int a, int& b);
+
 int main(int argc, char** argv)
 {
-	int cuantos;
-	cout << "Cuantos datos va a introducir? ";
-	cin >> cuantos;
-	if(cuantos < 0)
-		cout << "La cantidad no es valida\n";
-	else {
-		int llevo = 0;
-		double suma = 0, dato, media = 0;
-		while (llevo < cuantos) {
-			llevo++;
-			cout << "Introduzca el dato " << llevo << "/" << cuantos << ": ";
-			cin >> dato;
-			suma += dato;
-			};
-		media = suma / cuantos;
-		cout << "La media de los " << cuantos << "datos es " << media << "\n";
-	};
+	int x = 2, y = 4;
+	cout << "1. x = " << x << " y = " << y << endl;
+	ejemplo(x,y);
+	cout << "2. x = " << x << " y = " << y << endl;
 	return 0;
+}
+
+void ejemplo(int a, int& b)
+{
+	a = 5;
+	b = 8;
 }
