@@ -5,7 +5,7 @@
 class Persona
 {
 private:
-    bool genero = true;  // Default true, assuming it represents gender (e.g., true = female or male)
+    bool genero = true;
     int edad;
     char dni[10] = "72210526B";  // Default DNI value
     
